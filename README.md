@@ -30,7 +30,7 @@ We used java to code in this practical training and were required to finish a sm
 
 At last, I run the bug runner and glanced at the implementation of the lovely bugs. However, *I didn't imagined that this small bugs, who is so cute and harmless, developed to the terrible dream of future work, which is beyond my wildest dream (＠_＠).*
 
-##Stage 2
+## Stage 2
 
 > Exercise in Stage 2 is the beginning of the really coding task in my perspective. In this stage, we were going to roll up our sleeves depicting all kinds of bugs and actors.
 
@@ -90,6 +90,6 @@ A star algorithm evaluate the cost of each movement and choose the cheapest cost
 
 Refer from the Kalman Filtering, I come up with a new hybrid prediction based on the neighborhood. To hybrid the measurement and prediction, we first need to get a predict value. Prediction is figure out by the neighbors who have already has a estimation. Average prediction of the target node equals the sum of depth multiply estimation. Hybrid is made using weight - estimateRate and predictRate. The deep depth node deserve a higher proportion, so the depth is taken into consideration and the primate node is hybridized more times. Considering the neighbors, the step is saved by about 30 steps in the given data.
 
-##Conclusion
+## Conclusion
 
 >That what I learnt in this practical training. *Little steps make a thousand miles.* Try hard like the **MazeBug** to explore the **UnboundedWorld**.
