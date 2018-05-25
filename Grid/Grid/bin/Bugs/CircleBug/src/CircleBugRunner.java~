@@ -1,0 +1,18 @@
+import info.gridworld.actor.ActorWorld;
+import info.gridworld.grid.Location;
+
+public final class CircleBugRunner {
+	public static void main(String[] args) {
+		// some magic numbers
+		final int x = 2, y = 4, side = 3;
+		// using default constructor to construct the world
+		ActorWorld world = new ActorWorld();
+		// construct the bug whose side length is side
+		CircleBug bug = new CircleBug(side);
+		// add CircleBug into the world
+		world.add(new Location(x, y),bug);
+		// to show the world
+		world.show();
+
+	}
+}
