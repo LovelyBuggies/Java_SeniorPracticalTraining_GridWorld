@@ -58,7 +58,7 @@ There is always someone punish the bad guys. That is, *what goes around goes aro
 
 To make the bugs, critters and actors act in a specious environment, we make the **BoundedGrid** which has a DIY scale and **UnboundedGrid** without boundary. In this way, they have a larger place to play!!!
 
-##Stage 3
+## Stage 3
 
 >Stage 3 is consist of three project, firstly classical Lena was processed again using Java API. Secondly, I used some enhanced DFS methods to teach the maze bug and it seemed more clever. BFS and A star algorithm are used to solve the N-puzzle problem.
 
